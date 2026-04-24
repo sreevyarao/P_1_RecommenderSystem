@@ -48,7 +48,9 @@ streamlit run movie.py
 📸 Output
 
 screenshots/Intro Screen.png
+<br>
 screenshots/main page(movie selection & recommendations).png
+<br>
 screenshots/final page(poster+trailers).png
 
 
