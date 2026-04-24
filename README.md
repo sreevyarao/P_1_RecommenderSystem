@@ -1,2 +1,61 @@
-# P_1_RecommenderSystem
-A Movie Recommender System using Machine Learning (Cosine Similarity) with Streamlit UI
+🎬 Movie Recommender System
+
+A Machine Learning-based Movie Recommender System that suggests movies using **Cosine Similarity**.
+
+
+
+🚀 Features
+
+* Recommends top 5 similar movies
+* Displays movie posters
+* Shows trailers (YouTube integration)
+* Interactive UI using Streamlit
+
+
+
+🧠 How It Works
+
+* Movie data is processed and combined into tags
+* Text is converted into vectors using Count Vectorizer
+* Cosine Similarity is used to find similar movies
+* Top recommendations are displayed
+
+
+
+🛠 Tech Stack
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Streamlit
+
+
+
+▶️ Run Locally
+
+```bash
+git clone https://github.com/your-username/movie-recommender-system.git
+cd movie-recommender-system
+pip install -r requirements.txt
+streamlit run movie.py
+```
+
+
+
+📸 Output
+
+(Add your screenshots here)
+
+
+
+🌍 Future Improvements
+
+* Add regional movies
+* User-based recommendations
+* Rating-based filtering
+
+
+
+👨‍💻 Author
+
+Sreevya Rao
