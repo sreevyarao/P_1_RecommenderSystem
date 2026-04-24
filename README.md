@@ -1,9 +1,9 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 
-🎬 Movie Recommender System
+🎬 Movie Recommender System (FILMFLIX)
 <br>
-A Machine Learning-based Movie Recommender System that suggests movies using **Cosine Similarity**.
+A Machine Learning-based movie recommendation system built using Content-Based Filtering and Cosine Similarity, with an interactive Netflix-style UI using Streamlit.
 
 
 
@@ -13,6 +13,7 @@ A Machine Learning-based Movie Recommender System that suggests movies using **C
 * Displays movie posters
 * Shows trailers (YouTube integration)
 * Interactive UI using Streamlit
+* Fast similarity-based recommendations
 
 
 
@@ -21,7 +22,7 @@ A Machine Learning-based Movie Recommender System that suggests movies using **C
 * Movie data is processed and combined into tags
 * Text is converted into vectors using Count Vectorizer
 * Cosine Similarity is used to find similar movies
-* Top recommendations are displayed
+* Top 5 recommendations are displayed
 
 
 
@@ -31,6 +32,21 @@ A Machine Learning-based Movie Recommender System that suggests movies using **C
 * Pandas, NumPy
 * Scikit-learn
 * Streamlit
+* Pickle
+
+
+📂 Project Structure
+
+movie.py → Main Streamlit app
+model.py → Model building script
+posters/ → Movie poster images
+similarity.pkl → Similarity matrix (not included due to size)
+
+
+⚠️ Note
+
+The file similarity.pkl is not included due to GitHub size limits.
+Run model.py to generate it locally.
 
 
 
@@ -44,7 +60,6 @@ streamlit run movie.py
 ```
 
 
-
 📸 Output
 
 screenshots/Intro Screen.png
@@ -54,15 +69,18 @@ screenshots/main page(movie selection & recommendations).png
 screenshots/final page(poster+trailers).png
 
 
-
-🌍 Future Improvements
-
-* Add regional movies
-* User-based recommendations
-* Rating-based filtering
+🎥 Demo Video
+https://your-video-link
 
 
+🌟 Future Improvements
+Add Telugu/Hindi movie dataset
+Use TMDB API for dynamic posters
+Add user login & personalization
+Deploy online (Streamlit Cloud)
 
-👨‍💻 Author
+
+👩‍💻 Author
 
 Sreevya Rao
+B.Tech CSE (AI & ML)
