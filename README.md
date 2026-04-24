@@ -1,7 +1,8 @@
-🎬 Movie Recommender System
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 
+🎬 Movie Recommender System
+<br>
 A Machine Learning-based Movie Recommender System that suggests movies using **Cosine Similarity**.
 
 
@@ -46,7 +47,9 @@ streamlit run movie.py
 
 📸 Output
 
-(Add your screenshots here)
+screenshots/Intro Screen.png
+screenshots/main page(movie selection & recommendations).png
+screenshots/final page(poster+trailers).png
 
 
 
