@@ -162,19 +162,20 @@ The file similarity.pkl is not included due to GitHub size limits.
 
 Displays movie selection interface and recommendation controls.
 
+<img width="1920" height="1080" alt="Intro Screen" src="https://github.com/user-attachments/assets/3840d024-b545-4b46-b8f7-a14497972886" />
 screenshots/Intro Screen.png
 
-**Recommendation Screen**
+**Recommendation Screen**    ||    **Movie Details Screen**
 
-Generates personalized movie recommendations.
+Generates personalized movie recommendations.      ||        Displays posters and trailer previews.
+<div align="center">
+<img width="48%"  alt="main page(movie selection   recommendations)" src="https://github.com/user-attachments/assets/2769aab9-44e9-4d89-9ec8-a5d8fa786396" />
+<img width="48%"  alt="final page(poster+trailers)" src="https://github.com/user-attachments/assets/b7ce64b6-ea35-42ab-971e-54d995bfc1b9" />
 
-screenshots/main page(movie selection & recommendations).png
+</div>
+screenshots/main page(movie selection & recommendations).png           ||          screenshots/final page(poster+trailers).png
 
-**Movie Details Screen**
 
-Displays posters and trailer previews.
-
-screenshots/final page(poster+trailers).png
 
 ## 🎥 Project Demonstration
 
